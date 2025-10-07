@@ -1,0 +1,11 @@
+The reason a graph is the best data structure to represent a social network is because of the nature of a social network. With
+people representing nodes in this data structure every single person in the group can or can not have a relation to someone else
+in the data structure. This is why graphs are the best data structure to represent a social network because the possibie because
+it is the best at representing everyones relation to other people. Another reason it is the best is because the data in our
+social network isn't hierarchical.
+The reason a list or tree wouldn't work as well as a graph for a social network is because not only are those data structures hierarchical
+but those data structures can represent the relationship of people to more than two person easily. For a list a node only has a relation
+with the node in front and behind it. With a tree (especially a binary tree) you only have a relation to two people at the most and in a binary tree
+the data needs a number so it can be places on the tree at a certain location. With a graph however you can have alot more realtions to different nodes.
+The quesion if kind of confusing but structurally I noticed that the Person object I created stores all of its friends relationships.
+Maybe this could cause performance issues?
