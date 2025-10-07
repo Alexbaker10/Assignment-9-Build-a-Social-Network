@@ -7,16 +7,6 @@ class Person:
     def add_friend(self, friend):
         self.friends.append(friend)
 
-
-class Person:
-    def __init__(self, name):
-        self.name = name
-        self.friends = []
-
-    def add_friend(self, friend):
-        self.friends.append(friend)
-
-
 class SocialNetwork:
     def __init__(self):
         self.people = {}
